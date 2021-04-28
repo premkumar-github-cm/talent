@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@1,700&family=Roboto&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7367208505.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    /**** Part 1 ***********/
+    .part1 {
+        width: 100%;
+        padding: 5% 7%;
+    }
+
+    .part1 span {
+        font-size: 2.2rem;
+    }
+
+    .part1 .icons {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 3% 0;
+        font-size: 1.5rem;
+    }
+
+    .icons i {
+        margin-right: 15px;
+    }
+
+    /******* Part 2 ********/
+    .part2 {
+        width: 100%;
+        background-image: url('part2.jfif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .part2 h1 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+    }
+
+    .part2 h2 {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 2.2rem;
+    }
+
+    .part2 button {
+        border: 3px solid white;
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        padding: 20px 30px;
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /******* part 3 ***********/
+    .part3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 3% 0;
+    }
+
+    .part3 .pics {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .part3 .pics i {
+        background-color: #f0c929;
+        padding: 10%;
+        border-radius: 50%;
+        color: white;
+        font-size: 2.2rem;
+    }
+
+    .part3 p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+    }
+
+    /********* part 4 ********/
+    .part4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    .part4 .about {
+        width: 100%;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .part4 .about img {
+        width: 90%;
+    }
+
+    .part4 .about p {
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /******* part 5  ********/
+    .part5 {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        padding: 3% 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .part5 .about {
+        color: white;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .part5 .about p {
+        font-size: 1.2rem;
+    }
+
+    .part5 .form {
+        width: 100%;
+        color: white;
+    }
+
+    .part5 .form p {
+        font-size: 1.3rem;
+        font-family: 'Roboto', sans-serif;
+        ;
+    }
+
+    .part5 form {
+        border: 2px solid white;
+        width: 100%;
+        padding: 5%;
+        font-size: 1.3rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .part5 input {
+        width: 100%;
+        outline: none;
+        font-size: 20px;
+        height: 30px;
+        margin: 15px 0;
+    }
+
+    .part5 form button {
+        outline: none;
+        background-color: white;
+        color: black;
+        padding: 10px 40px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+
+    button:active {
+        transform: scale(.98, .98);
+    }
+
+    /******* part 6 ********/
+    .part6{
+        width: 100%;
+        text-align: center;
+        padding: 3% 5%;
+    }
+    .part6 i{
+        font-size: 1.8rem;
+        margin-top: 10px;
+        margin-right: 12px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="part1">
+            <span style="font-family: 'Montserrat', sans-serif"><i>igenious</i></span>
+            <span style="font-family: 'Zen Dots', cursive;"> spot</span>
+            <div class="icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="part2">
+            <h1>
+                FRESH <BR>TALENT <i class="fas fa-plus"></i><BR>TOP<BR> EMPLOYERS
+            </h1>
+            <h2>create yout future</h2>
+            <button>
+                FIND TALENT
+            </button><br>
+            <button>
+                FIND A JOB
+            </button>
+        </div>
+
+        <div class="part3">
+            <div class="pics">
+                <i class="fas fa-pencil-alt"></i>
+                <p>GRAPHIC DESIGN</p>
+            </div>
+            <div class="pics">
+                <i class="fas fa-scroll"></i>
+                <p>COPYWRITERS</p>
+            </div>
+            <div class="pics">
+                <i class="far fa-lightbulb"></i>
+                <p>CREATIVE DIRECTOR</p>
+            </div>
+            <div class="pics">
+                <i class="fas fa-layer-group"></i>
+                <p>CLIENT MANAGER</p>
+            </div>
+        </div>
+
+        <div class="part4">
+            <div class="about" style="text-align: left;padding:  0 5%;">
+                <b> <i class="fas fa-plus" style="color: black;
+            font-size:5rem;"></i></b>
+                <h1 style="font-family: 'Zen Dots', cursive;">ABOUT US</h1>
+                <h2 style="font-family: 'Montserrat', sans-serif">People behind <br>igenious spot</h2>
+            </div>
+            <div class="about">
+                <img src="https://www.fivesquid.com/pics/t2/1552234583-109021-1-1.jpg" alt="">
+                <p>Name<br>
+                    Job Title</p>
+            </div>
+            <div class="about">
+                <img src="https://www.fivesquid.com/pics/t2/1508461776-76689-1-1.jpg" alt="">
+                <p>Name<br>
+                    Job Title</p>
+            </div>
+            <div class="about">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtV--5dBh0SCrLIpJpMQI-uG5ZQvoZpJzZLZZDb7Rzb6nlHEuZ-PdJnlEtg1JQQSlgIs&usqp=CAU"
+                    alt="">
+                <p>Name<br>
+                    Job Title</p>
+            </div>
+            <div class="about">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/127640683/original/f9afd06069847509b6620fbc1958df863f957019/make-minimalist-avatar-for-you.png"
+                    alt="">
+                <p>Name<br>
+                    Job Title</p>
+            </div>
+            <div class="about" style="text-align: left;font-size: 1.3rem;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus ipsum libero, sint
+                    laboriosam rerum laborum sequi! Suscipit fugiat nam id, maiores commodi neque laudantium et quas
+                    rerum debitis dolorum.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum tenetur minima, eveniet architecto
+                    cupiditate totam numquam consectetur delectus. Architecto in libero fuga magni. Eveniet quisquam
+                    repudiandae ipsam, labore natus sed.
+                </p>
+            </div>
+        </div>
+
+        <div class="part5">
+            <div class="about" style="text-align: left;padding:  0 5%;">
+                <b> <i class="fas fa-plus" style="color:white;
+            font-size:5rem;"></i></b>
+                <h1 style="font-family: 'Zen Dots', cursive;">CONTACT US</h1>
+                <h3 style="font-family: 'Montserrat', sans-serif">Over the phone or online</h3>
+                <p style="margin-top: 40px;"><i class="far fa-envelope"></i> mail@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> 140 23232323</p>
+                <p>500 Terry Francois Street,<br>
+                    San Francisco, CA 94158</p>
+            </div>
+            <div class="form">
+                <p>If you are talented, looking for job, contact us here</p>
+
+                <form action="/" method="POST">
+                    <label>First Name</label><br>
+                    <input type="text" placeholder="First Name....."><br>
+
+                    <label>Last Name</label><br>
+                    <input type="text" placeholder="Last Name......."><br>
+
+                    <label>Email</label><br>
+                    <input type="email" placeholder="Mail Id.........">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="part6">
+            <p>info@mysite.com   |   500 Terry Francois Street San Francisco, CA 94158</p>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <p>© 2023 BY CREATIVE CORNER. PROUDLY CREATED WITH WIX.COM</p>
+        </div>
+    </div>
+</body>
+
+</html>
